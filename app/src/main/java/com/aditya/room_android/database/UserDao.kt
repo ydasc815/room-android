@@ -18,5 +18,5 @@ interface UserDao {
     fun deleteAllUsers()
 
     @Query("SELECT * FROM user_table")
-    fun getAllUsers(): LiveData<List<User>>
+    fun getAllUsers(): List<User>
 }
