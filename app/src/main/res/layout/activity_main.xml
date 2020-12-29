@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
+
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -23,21 +24,27 @@
             android:id="@+id/field_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
             android:layout_marginTop="108dp"
+            android:layout_marginRight="16dp"
             android:hint="Enter your name" />
 
         <EditText
             android:id="@+id/field_age"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
             android:layout_marginTop="32dp"
+            android:layout_marginRight="16dp"
             android:hint="Enter your age" />
 
         <EditText
             android:id="@+id/field_gender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
             android:layout_marginTop="32dp"
+            android:layout_marginRight="16dp"
             android:hint="Enter your gender" />
 
         <Button
